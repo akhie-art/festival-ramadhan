@@ -1,7 +1,4 @@
 @media only screen and (max-width: 760px) {
-  .header {
-    backdrop-filter: blur(500px);
-  }
   .logo h1 {
     font-size: 0.5rem;
   }
