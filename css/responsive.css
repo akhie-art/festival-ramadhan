@@ -1,0 +1,36 @@
+@media only screen and (max-width: 760px) {
+  .logo h1 {
+    font-size: 0.5rem;
+  }
+
+  .navBar a {
+    font-size: 0.5rem;
+  }
+  .konten-beranda {
+    margin-top: 20%;
+  }
+  .tulisan-beranda {
+    padding: 0;
+  }
+  .konten-tulisan-beranda h1 {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  .konten-tulisan-beranda p {
+    text-align: center;
+    padding-left: 5%;
+  }
+  .daftar-beranda {
+    margin-left: 32%;
+  }
+  .daftar-beranda a{
+    font-size: .7rem;
+    padding: 0% 50%;
+  }
+  .gambar-beranda {
+    display: none;
+  }
+  .item-daftar-lomba {
+    padding: 0% 7%;
+  }
+}
