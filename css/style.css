@@ -25,6 +25,7 @@ body {
   padding: 2% 5%;
   box-sizing: border-box;
   background-color: #100b2b;
+  box-shadow: 0 0 10px 10px black;
   /* backdrop-filter: blur(30px); */
   position: fixed;
   z-index: 1;
