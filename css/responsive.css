@@ -32,5 +32,10 @@
   }
   .item-daftar-lomba {
     padding: 0% 7%;
+    height: 60%;
+    margin-bottom: 5%;
+  }
+  .narasi-lomba {
+    height: 20%;
   }
 }
