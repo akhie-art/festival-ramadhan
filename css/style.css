@@ -24,7 +24,8 @@ body {
   align-items: center;
   padding: 2% 5%;
   box-sizing: border-box;
-  backdrop-filter: blur(30px);
+  background-color: #100b2b;
+  /* backdrop-filter: blur(30px); */
   position: fixed;
   z-index: 1;
 }
