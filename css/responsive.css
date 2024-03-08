@@ -21,11 +21,13 @@
     padding-left: 5%;
   }
   .daftar-beranda {
-    margin-left: 32%;
+    margin-left: 26%;
+    width: 40%;
   }
-  .daftar-beranda a{
-    font-size: .7rem;
-    padding: 0% 50%;
+  .daftar-beranda a {
+    font-size: 0.7rem;
+    padding: 0% 10%;
+    font-weight: 900;
   }
   .gambar-beranda {
     display: none;
