@@ -67,7 +67,8 @@ body {
   box-sizing: border-box;
   border-radius: 10px;
 }
-.navBar a:hover {
+.navBar a:hover,
+.navBar a.aktif {
   background-color: #19afe9;
   background: linear-gradient(#1d24ca 10%, #201658 80%);
 }
