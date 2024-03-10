@@ -72,98 +72,110 @@ body {
   background-color: #19afe9;
   background: linear-gradient(#1d24ca 10%, #201658 80%);
 }
+
 .beranda {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 10% 5%;
   box-sizing: border-box;
+  /* background-color: red; */
 }
 .konten-beranda {
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  /* background-color: blue; */
 }
+
+/* Awal Tulisan Beranda */
+
 .tulisan-beranda {
   width: 500px;
   height: 500px;
   display: flex;
-  padding-left: 5%;
   box-sizing: border-box;
+  /* background-color: pink; */
 }
 .konten-tulisan-beranda {
   width: auto;
   height: auto;
 }
-.konten-tulisan-beranda h1 {
-  line-height: 85px;
+.tulisan-utama-beranda {
+  margin-bottom: 5%;
+  width: 100%;
+  height: auto;
+}
+.tulisan-utama-beranda h1 {
+  font-family: "ramadhan";
+  font-size: 6rem;
+  line-height: 80px;
+  color: white;
+}
+.tulisan-utama-beranda span {
   font-family: "ramadhan";
   color: #1d24ca;
-  font-size: 6rem;
+}
+.narasi-beranda {
+  width: 90%;
+  height: auto;
+  color: white;
   margin-bottom: 5%;
 }
-.konten-tulisan-beranda span {
-  font-family: "ramadhan";
-  color: white;
-}
-.konten-tulisan-beranda p {
-  color: white;
-  font-size: 0.8rem;
-  width: 80%;
-  margin-bottom: 5%;
-  margin-left: 2%;
-}
-.daftar-beranda {
-  width: 30%;
-  height: 10%;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  background: linear-gradient(#1d24ca 10%, #201658 80%);
-  transition: 0.5s ease-in-out;
-  margin-left: 2%;
-}
-.daftar-beranda:hover {
-  box-shadow: 0 0 10px 2px white, 0 0 15px 5px aqua, 0 0 5px 5px aqua;
-}
-.daftar-beranda a {
-  text-decoration: none;
-  font-weight: 500;
+.tbl-daftar-beranda {
   width: 100%;
-  font-size: 0.9rem;
+  height: 20%;
+}
+.tbl-daftar-beranda button {
+  border: none;
+  width: 30%;
+  height: 40%;
+  border-radius: 5px;
+  background: linear-gradient(#1d24ca 10%, #201658 80%);
+}
+.tbl-daftar-beranda button:hover {
+  background: linear-gradient(#262dff 10%, #352494 80%);
+}
+.tbl-daftar-beranda a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
 }
+
+/* Akhir Tulisan Beranda */
+
 .gambar-beranda {
   width: 500px;
   height: 500px;
   display: flex;
+  justify-content: center;
   box-sizing: border-box;
-  /* align-items: start; */
-  /* background-color: red; */
+  /* background-color: green; */
 }
 .konten-gambar-beranda {
-  width: 100%;
+  width: 80%;
   height: 70%;
   display: flex;
   align-items: end;
   justify-content: end;
-  /* background-color: green; */
+  /* background-color: red; */
 }
 .konten-beranda img {
-  width: 70%;
+  width: 100%;
   filter: drop-shadow(0 0 130px rgb(21, 0, 255));
 }
 .daftar-lomba {
   width: 100%;
-  height: 80%;
+  height: 150%;
   padding: 2% 5%;
   box-sizing: border-box;
 }
@@ -176,15 +188,14 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 2%;
-  row-gap: 20px;
 }
 .item-daftar-lomba {
   box-shadow: inset 0 5px 10px 5px rgba(0, 157, 255, 0.702);
   width: 300px;
-  height: 100%;
+  height: 40%;
   background: linear-gradient(#1d24ca 10%, #201658 80%);
   border-radius: 10px;
-  padding: 0% 2% 2% 2%;
+  padding: 0% 3% 2% 3%;
   box-sizing: border-box;
 }
 .gambar-item {
@@ -250,7 +261,7 @@ body {
 }
 .narasi-lomba {
   width: 100%;
-  height: 30%;
+  height: 20%;
   overflow: scroll;
 }
 .narasi-lomba::-webkit-scrollbar {
@@ -259,8 +270,7 @@ body {
 .narasi-lomba p {
   color: #f9e8c9;
   text-align: center;
-  font-size: 0.9rem;
-  margin-bottom: 5%;
+  font-size: 0.7rem;
 }
 .daftar-item {
   width: 100%;
@@ -291,4 +301,10 @@ body {
   text-decoration: none;
   font-weight: 600;
   color: white;
+}
+
+#galeri{
+  width: 100%;
+  height: 100%;
+  background-color: green;
 }
