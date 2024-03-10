@@ -69,16 +69,59 @@
   .gambar-item img {
     width: 90%;
   }
+  .daftar-lomba {
+  }
   .nama-lomba h1 {
     font-size: 1rem;
   }
-  .narasi-lomba p{
-    font-size: .5rem;
+  .duta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30% 4% 4% 4%;
+    box-sizing: border-box;
   }
-  .tbl-daftar-item{
+  .duta img {
+    width: 60%;
+  }
+  .kaligrafi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30%;
+    box-sizing: border-box;
+  }
+  .kaligrafi img {
+    width: 60%;
+  }
+  .hafidz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    box-sizing: border-box;
+  }
+  .hafidz img {
+    width: 70%;
+  }
+  .cerdas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30%;
+    box-sizing: border-box;
+  }
+  .cerdas img {
+    width: 50%;
+    filter: brightness(80%);
+  }
+  .narasi-lomba p {
+    font-size: 0.5rem;
+  }
+  .tbl-daftar-item {
     border-radius: 5px;
   }
-  .tbl-daftar-item a{
-    font-size: .7rem;
+  .tbl-daftar-item a {
+    font-size: 0.7rem;
   }
 }
